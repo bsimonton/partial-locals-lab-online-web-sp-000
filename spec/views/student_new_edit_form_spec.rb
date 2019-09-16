@@ -56,5 +56,5 @@ require "rails_helper"
       render :template => "students/edit.html.erb"
       expect(rendered).to render_template(:partial => "_form", locals: {student: student})
     end
-  end
+  
 end
